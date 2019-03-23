@@ -12,3 +12,18 @@ This project is a practice in writing vanilla JavaScript and to learn about othe
 
 
 #### Project takeaways
+* Inspect JavaScript code by turning on debugger in Console. Right-click on element. Then select 'Break on' and make a selection such as 'attribute modification'. This will show the jScript and pause at the line number.
+* String interpolation in console.log using `%s`: `console.log("This is an %s string.", "interpolated");`
+* `console.warn(msg)` shows warning in console.
+* `console.error(msg)` shows error in console and gives a stack trace
+* `console.info(msg)` Is now the same as console.log();
+* `console.assert(test, msg)` If test fails, msg will be shown in the console.
+* `console.clear()` Clears the console.
+* `console.log(p)` Displays variable 'p'.
+* `console.dir(p)` Allows to open up 'p' and view classList, dataset, children, etc...
+* `console.group(x)` and `console.groupEnd(x)` to group output by 'x'.
+* `console.groupCollapsed(x)` is same as console.group but defaulted to collapsed state.
+* `console.count(x)` counts number of time 'x' is used
+* `console.time(x)` and `console.timeEnd(x)` gives time of how long the function between the two took.
+* `console.table(x)` displays array in a table
+
